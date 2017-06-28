@@ -1,29 +1,56 @@
-var animal = 'dog'
+function callMe() {
+  console.log("I just met you...");
+  console.log("and this is crazy..");
+  console.log("but here's my number..");
+  console.log("so call me");
 
+<<<<<<< HEAD
 function myAnimal() {
-  return animal
+  return animal;
 }
 
 function yourAnimal() {
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
-  return animal
+var animal = 'cat';
+  return animal;
 }
 
 function add2(n) {
-  return n + two
+const two = 2;
+  return n + two;
 
-  // Feel free to move things around!
-  const two = 2
 }
 
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
+function funkyFunction () {
+  return function(){
+    return "FUNKY!";
+  };
+};
+var theFunk = funkyFunction()();
+=======
+  var lyric = "maybe";
+    return lyric;
+}
+
+
+function crazy() {
+  // fix the code in here:
+
+    var thisIsCrazy = function (){
+      console.log("hey!!!")
+    }
+    thisIsCrazy();
+
+}
+
+function sayMyName() {
+  // fix the code in here:
+  var name = "Cricky";
+
+  sayMy(name);
+
+  function sayMy(name) {
+name = "Kristin";
+console.log(name);
   }
 }
-
-// We want 'funkyFunction' on the line below to return a function that returns "FUNKY!" -- how can we accomplish that?
-// NOTE: To pass this final test, you only need to modify the code below this line.
-var theFunk = funkyFunction
+>>>>>>> b3ae39e38482f835d30fe9a39289132474bbd215
