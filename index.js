@@ -1,10 +1,11 @@
 var animal = 'dog'
 
-function myAnimal(animal) {
+function myAnimal() {
   return animal;
 }
-animal='cat';
-function yourAnimal(animal) {
+
+function yourAnimal() {
+var animal = 'cat';
   return animal;
 }
 
@@ -14,9 +15,9 @@ const two = 2;
 
 }
 
-funkyFunction = function() {
+function funkyFunction () {
   return function(){
     return "FUNKY!";
   };
-}
-var theFunk = funkyFunction();
+};
+var theFunk = funkyFunction()();
